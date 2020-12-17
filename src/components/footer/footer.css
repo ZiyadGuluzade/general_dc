@@ -1,0 +1,20 @@
+.footer {
+  /* position: fixed;
+  bottom: 0; */
+  width: calc(100% - 4rem);
+  padding: 0 5rem;
+  height: 7rem;
+  background: #092b34;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 0 2rem;
+    height: 6rem;
+    width: calc(100% - 4rem);
+  }
+}

@@ -1,0 +1,303 @@
+.hero-div {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* landing page */
+.landing-page {
+  background-image: url("../../images/cleaning1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+}
+
+/* lamnding page texts on the left side */
+.landing-text-div {
+  width: calc(100vw - 24rem);
+  display: flex;
+  flex-direction: column;
+  padding: 35vh 12rem 0 12rem;
+}
+
+h1.company-name {
+  font-size: 3.5rem;
+  color: #ffff;
+  margin: 0 0 1.2rem 0;
+}
+
+h3.company-brief-desc {
+  font-size: 1.8rem;
+  color: #051a20;
+  margin: 0 0 1.2rem 0;
+}
+
+p.company-services {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #051a20;
+  margin: 0 0 5rem 0;
+}
+
+/* learn more link */
+a.landing-page-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  background: #ffa033;
+  width: 7rem;
+  padding: 0.8rem 5rem;
+  border-radius: 5px;
+}
+
+a.landing-page-link:hover {
+  background: #ff961f;
+}
+
+img.landing-page-img {
+  width: calc(60vw - 5rem);
+}
+
+/* info page */
+.info-page {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 12rem;
+}
+
+h3.info-page-subtitle {
+  color: #083746;
+  font-size: 2.4rem;
+  margin: 0 0 1.2rem 0;
+}
+
+h4.info-page-quote {
+  font-size: 1.4rem;
+  color: #083746;
+}
+
+hr.subtitle-line {
+  width: 40%;
+  height: 3px;
+  color: #ffa033;
+  border: 1px solid #ffa033;
+  margin: 0 0 1.4rem 0;
+  background: #ffa033;
+}
+
+.info-page-list {
+  display: flex;
+}
+
+.benefits-div {
+  width: 50%;
+}
+
+.icon-text-div {
+  display: flex;
+  padding: 1rem 0;
+  align-items: center;
+}
+
+img.icon {
+  width: 5rem;
+  margin: 0 3rem 0 0;
+  padding: 0.7rem;
+  background: #ff961f;
+  border-radius: 5px;
+}
+
+img#eco {
+  background: #70e000;
+}
+
+p.service-benefits {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* services page */
+.services-page {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 12rem;
+  background: #f3f5f7;
+}
+
+h3.services-page-subtitle {
+  color: #083746;
+  font-size: 2.4rem;
+  margin: 0 0 1.2rem 0;
+}
+
+h4.services-page-quote {
+  font-size: 1.4rem;
+  color: #083746;
+}
+
+hr.services-page-line {
+  width: 40%;
+  height: 3px;
+  color: #28aef6;
+  border: 1px solid #28aef6;
+  margin: 0 0 1.4rem 0;
+  background: #28aef6;
+}
+
+.services-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.services-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-card {
+  margin: 2rem 0 1rem 0;
+}
+
+img.service-img {
+  width: 26rem;
+  height: 18rem;
+}
+
+h4.service-name {
+  font-size: 1.4rem;
+  margin: 0.4rem 0 0 0;
+  color: #083746;
+}
+
+/* meadia queries */
+
+@media (max-width: 768px) {
+  /* landing page */
+  .landing-text-div {
+    width: calc(100vw - 10rem);
+    display: flex;
+    flex-direction: column;
+    padding: 30vh 5rem 0 5rem;
+  }
+
+  /* info page */
+  .info-page {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 5rem;
+  }
+
+  .info-page-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .benefits-div {
+    width: 100%;
+  }
+
+  hr.subtitle-line {
+    width: 80%;
+  }
+
+  img.icon {
+    width: 4rem;
+    margin: 0 2.5rem 0 0;
+    padding: 0.6rem;
+  }
+
+  /* services page */
+  .services-page {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 5rem;
+    background: #f3f5f7;
+  }
+
+  hr.services-page-line {
+    width: 80%;
+  }
+
+  .services-row {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  img.service-img {
+    width: 100%;
+    height: 24rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .landing-text-div {
+    width: calc(100vw - 2.4rem);
+    display: flex;
+    flex-direction: column;
+    padding: 30vh 1.2rem 0 1.2rem;
+  }
+
+  h1.company-name {
+    font-size: 2.6rem;
+  }
+
+  .info-page {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 1.2rem;
+  }
+
+  .info-page-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .benefits-div {
+    width: 100%;
+  }
+
+  hr.subtitle-line {
+    width: 100%;
+  }
+
+  h3.info-page-subtitle {
+    font-size: 2rem;
+  }
+
+  h4.info-page-quote {
+    font-size: 1.2rem;
+  }
+
+  /* services page */
+  .services-page {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 1.2rem;
+    background: #f3f5f7;
+  }
+
+  hr.services-page-line {
+    width: 80%;
+  }
+
+  .services-row {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  img.service-img {
+    width: 100%;
+    height: 14rem;
+  }
+
+  h3.services-page-subtitle {
+    font-size: 2rem;
+  }
+
+  h4.services-page-quote {
+    font-size: 1.2rem;
+  }
+}

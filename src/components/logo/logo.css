@@ -1,0 +1,20 @@
+.logo-span {
+  color: #fff;
+  font-weight: bold;
+  font-size: 2.5rem;
+  background: #082730;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-span:hover {
+  background: #020c11;
+  color: rgb(199, 198, 198);
+}
+
+img.logo-svg {
+  width: 2.4rem;
+  margin: 0 0 0 0.3rem;
+}

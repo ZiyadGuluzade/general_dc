@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b61e6d54.chunk.css",
+    "main.js": "/static/js/main.1d2317f5.chunk.js",
+    "main.js.map": "/static/js/main.1d2317f5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0284c9df.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0284c9df.js.map",
+    "static/js/2.45b7e555.chunk.js": "/static/js/2.45b7e555.chunk.js",
+    "static/js/2.45b7e555.chunk.js.map": "/static/js/2.45b7e555.chunk.js.map",
+    "static/js/3.6da75bbd.chunk.js": "/static/js/3.6da75bbd.chunk.js",
+    "static/js/3.6da75bbd.chunk.js.map": "/static/js/3.6da75bbd.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b61e6d54.chunk.css.map": "/static/css/main.b61e6d54.chunk.css.map",
+    "static/js/2.45b7e555.chunk.js.LICENSE.txt": "/static/js/2.45b7e555.chunk.js.LICENSE.txt",
+    "static/media/budget_icon.aacaeaf9.svg": "/static/media/budget_icon.aacaeaf9.svg",
+    "static/media/business.25e59f17.svg": "/static/media/business.25e59f17.svg",
+    "static/media/care.8d47b53d.svg": "/static/media/care.8d47b53d.svg",
+    "static/media/carpet_floor_cleaning.c11bfd2b.jpeg": "/static/media/carpet_floor_cleaning.c11bfd2b.jpeg",
+    "static/media/hero.css": "/static/media/cleaning1.8edad70e.jpg",
+    "static/media/cleaning4.49bd6e26.jpg": "/static/media/cleaning4.49bd6e26.jpg",
+    "static/media/cleaning_team.4f7d4e99.jpg": "/static/media/cleaning_team.4f7d4e99.jpg",
+    "static/media/commercial.1612b817.jpeg": "/static/media/commercial.1612b817.jpeg",
+    "static/media/condo2.4f27ff5b.jpg": "/static/media/condo2.4f27ff5b.jpg",
+    "static/media/customer_service.836f4a40.svg": "/static/media/customer_service.836f4a40.svg",
+    "static/media/details.a9cd4bee.svg": "/static/media/details.a9cd4bee.svg",
+    "static/media/eco.4c433819.svg": "/static/media/eco.4c433819.svg",
+    "static/media/email.3510fcc0.svg": "/static/media/email.3510fcc0.svg",
+    "static/media/house_cleaning_2.221cfb7f.jpeg": "/static/media/house_cleaning_2.221cfb7f.jpeg",
+    "static/media/maple.2fa671a2.png": "/static/media/maple.2fa671a2.png",
+    "static/media/office_cleaning.c954e989.jpg": "/static/media/office_cleaning.c954e989.jpg",
+    "static/media/phone.fc719513.svg": "/static/media/phone.fc719513.svg",
+    "static/media/restaurant.0b717da8.jpg": "/static/media/restaurant.0b717da8.jpg",
+    "static/media/schedule.ccdf7e8a.svg": "/static/media/schedule.ccdf7e8a.svg",
+    "static/media/time.76275387.svg": "/static/media/time.76275387.svg",
+    "static/media/visit.da2e3bfa.svg": "/static/media/visit.da2e3bfa.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0284c9df.js",
+    "static/js/2.45b7e555.chunk.js",
+    "static/css/main.b61e6d54.chunk.css",
+    "static/js/main.1d2317f5.chunk.js"
+  ]
+}
